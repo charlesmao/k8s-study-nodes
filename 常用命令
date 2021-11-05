@@ -1,0 +1,8 @@
+# 查看K8S所支持的API版本
+kubectl api-versions
+
+# 查看已有pod的yaml格式
+kubectl get pod <pod-name> -n namespace -o yaml
+
+#查看已有service的yaml格式
+kubectl get svc <service-name> -n namespace -o yaml
